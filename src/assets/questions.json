@@ -1,0 +1,96 @@
+{
+    "questions": [{
+            "questionText": "1)Which of the following option leads to the portability and security of Java?",
+            "options": [{
+                    "text": "a)Bytecode is executed by JVM",
+                    "correct": true
+                },
+                {
+                    "text": "b)The applet makes the Java code secure and portable"
+                },
+                {
+                    "text": "c)Use of exception handling"
+                },
+                {
+                    "text": "d)Dynamic binding between objects"
+                }
+            ],
+            "explanation": " Because JVM prevents the code from generating its side effects. The Java code is portable, as the same byte code can run on any platform."
+        },
+        {
+            "questionText": "2) _____ is used to find and fix bugs in the Java programs.",
+            "options": [{
+                    "text": "a)JVM"
+                },
+                {
+                    "text": "b)JRE"
+                },
+                {
+                    "text": "c)JDK"
+                },
+                {
+                    "text": "d)JDB",
+                    "correct": true
+                }
+            ],
+            "explanation": "The JVM (Java Virtual Machine) enables a computer to run Java or other language (kotlin, groovy, Scala, etc.) programs that are compiled to the Java bytecode. The JRE (Java Runtime Environment) is a part of JDK that contains the Java class libraries, Java class loader, and the Java Virtual Machine. The JDK (Java Development Kit) is a software development environment used to develop Java applications and applets."
+        },
+        {
+            "questionText": "3)What does the expression float a = 35 / 0 return?",
+            "options": [{
+                    "text": "a)0"
+                },
+                {
+                    "text": "b)Not a number"
+                },
+                {
+                    "text": "c)Infinity",
+                    "correct": true
+                },
+                {
+                    "text": "d)Run time exception"
+                }
+            ],
+            "explanation": "In Java, whenever we divide any number (double, float, and long except integer) by zero, it results in infinity. "
+        },
+        {
+            "questionText": "4)Which method of the Class.class is used to determine the name of a class represented by the class object as a String?",
+            "options": [{
+                    "text": "a)getClass()"
+                },
+                {
+                    "text": "b)intern()"
+                },
+                {
+                    "text": "c)getName()",
+                    "correct": true
+                },
+                {
+                    "text": "d)toString()"
+                }
+            ],
+            "explanation": "The getName() method of the Class class returns the name (as String) of the entity (class, interface) represented by this Class object. It is a non-static method, and available in the java.lang package."
+        },
+        {
+            "questionText": "5) Which of the following is true about the anonymous inner class?",
+            "options": [{
+                    "text": "a)It has only methods"
+                    
+                },
+                {
+                    "text": "b)Objects can't be created"
+                },
+                {
+                    "text": "c)It has a fixed class name"
+                },
+                {
+                    "text": "d)It has no class name",
+                    "correct": true
+                }
+            ],
+            "explanation": "Anonymous inner classes are the same as the local classes except that they don't have any name. The main use of it is to override methods of classes or interfaces. "
+        }
+        
+  
+    ]
+}

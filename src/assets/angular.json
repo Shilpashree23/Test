@@ -1,0 +1,96 @@
+{
+    "angular": [{
+            "questionText": "1)AngularJS expressions bind AngularJS data to HTML the same way as the _________ directive.",
+            "options": [{
+                    "text": "a)ng-app"
+                },
+                {
+                    "text": "b)ng-model"
+                },
+                {
+                    "text": "c)ng-bind",
+                    "correct":true
+                },
+                {
+                    "text": "d)ng-init"
+                }
+            ],
+            "explanation": " AngularJS expressions bind AngularJS data to HTML the same way as the ng-bind directive."
+        },
+        {
+            "questionText": "2)Which of the following is an Advantages of AngularJS?",
+            "options": [{
+                    "text": "a)AngularJS code is unit testable."
+                },
+                {
+                    "text": "b)AngularJS provides reusable components."
+                },
+                {
+                    "text": "c)AngularJS uses dependency injection and make use of separation of concerns."
+                },
+                {
+                    "text": "d)All of the above",
+                    
+                    "correct": true
+                }
+            ],
+            "explanation": "All of the above statement is an Advantages of AngularJS."
+
+        },
+        {
+            "questionText": "3)All of the above statement is an Advantages of AngularJS",
+            "options": [{
+                    "text": "a)Scops"
+                },
+                {
+                    "text": "b)Filter"
+                },
+                {
+                    "text": "c)Data binding",
+                    "correct": true
+                },
+                {
+                    "text": "d)Service"
+                }
+            ],
+            "explanation": "Data binding in AngularJS is the synchronization between the model and the view."
+        },
+        {
+            "questionText": "4)The [] parameter in the module definition can be used to define dependent modules.",
+            "options": [{
+                    "text": "a)True",
+                    "correct": true
+                },
+                {
+                    "text": "b)False"
+                },
+                {
+                    "text": "c)Can be true or false"
+                },
+                {
+                    "text": "d)Cannot say"
+                }
+            ],
+            "explanation": "The [] parameter in the module definition can be used to define dependent modules. Without the [] parameter, you are not creating a new module, but retrieving an existing one."
+        },
+        {
+            "questionText": "5)Which of the following is used to share data between controller and view in AngularJS?",
+            "options": [{
+                    "text": "a)using Model"
+                },
+                {
+                    "text": "b)using services",
+                    "correct": true
+                },
+                {
+                    "text": "c)using factory"
+                },
+                {
+                    "text": "d)using $scope"
+                }
+            ],
+            "explanation": "using services is the correct answer."
+        }
+       
+    ]
+}

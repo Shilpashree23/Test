@@ -1,0 +1,95 @@
+{
+    "javascript": [{
+            "questionText": "1)In JavaScript, what is a block of statement?",
+            "options": [{
+                    "text": "a)Conditional block"
+                    
+                },
+                {
+                    "text": "b)block that combines a number of statements into a single compound statement",
+                    "correct": true
+                },
+                {
+                    "text": "c)both conditional block and a single statement"
+                },
+                {
+                    "text": "d)block that contains a single statement"
+                }
+            ],
+            "explanation": "In general, a block of statement has common definition which combines one or a number of statements into a single statement for ease."
+        },
+        {
+            "questionText": "2)When interpreter encounters an empty statements, what it will do:",
+            "options": [{
+                    "text": "a)Shows a warning"
+                },
+                {
+                    "text": "b)Prompts to complete the statement"
+                },
+                {
+                    "text": "c)Throws an error"
+                },
+                {
+                    "text": "d)Ignores the statements",
+                    "correct": true
+                }
+            ],
+            "explanation": "The empty statements also sometimes very useful like we use the empty statements for creating loop for nothing."
+        },
+        {
+            "questionText": "3)Which of the following variables takes precedence over the others if the names are the same?",
+            "options": [{
+                    "text": "a)Global variable"
+                },
+                {
+                    "text": "b)The local element",
+                    "correct": true
+                },
+                {
+                    "text": "c)The two of the above"
+                },
+                {
+                    "text": "d)None of the above"
+                }
+            ],
+            "explanation": "n JavaScript, the local variable takes precedence over the global variable if the name of both local and global variables is the same."
+        },
+        {
+            "questionText": "4)Which one of the following is the correct way for calling the JavaScript code?",
+            "options": [{
+                    "text": "a)Preprocessor"
+                },
+                {
+                    "text": "b)Triggering Event"
+                },
+                {
+                    "text": "c)RMI"
+                },
+                {
+                    "text": "d)Function/Method",
+                    "correct": true
+                }
+            ],
+            "explanation": "The JavaScript code can be called simply by making the function call to the element on which the JavaScript code execution has to be run. "
+        },
+        {
+            "questionText": "5)When there is an indefinite or an infinite value during an arithmetic computation in a program, then JavaScript prints______.",
+            "options": [{
+                    "text": "a)Prints an exception error"
+                },
+                {
+                    "text": "b)Prints an overflow error"
+                },
+                {
+                    "text": "c)Displays Infinity",
+                    "correct": true
+                },
+                {
+                    "text": "d)Prints the value as such"
+                }
+            ],
+            "explanation": " The result of any numerical operation is beyond the largest negative number, JavaScript prints negative infinity."
+        }
+       
+    ]
+}

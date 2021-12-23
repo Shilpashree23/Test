@@ -1,0 +1,94 @@
+{
+    "html": [{
+            "questionText": "1) Which of the following tag is used to insert a line-break in HTML?",
+            "options": [{
+                    "text": "a)<br>",
+                    "correct": true
+                },
+                {
+                    "text": "b)<a>"
+                },
+                {
+                    "text": "c)<pre>"
+                },
+                {
+                    "text": "d)<b>"
+                }
+            ],
+            "explanation": "The <br> tag in the HTML document is used to create a line break in a text. If we place the <br> tag in HTML code, then it works the same as pressing the enter key in a word processor."
+        },
+        {
+            "questionText": "2)Which of the following element is responsible for making the text italic in HTML?",
+            "options": [{
+                    "text": "a)<i>",
+                    "correct": true
+                },
+                {
+                    "text": "b)<italic>"
+                },
+                {
+                    "text": "c)<it>"
+                },
+                {
+                    "text": "d)<pre>"
+                }
+            ],
+            "explanation": "The <i> (italic tag) tag in HTML is used to display the written text in italic format."
+        },
+        {
+            "questionText": "3)<input> is -",
+            "options": [{
+                    "text": "a)a format tag."
+                },
+                {
+                    "text": "b)an empty tag.",
+                    "correct": true
+                },
+                {
+                    "text": "c)All of the above"
+                },
+                {
+                    "text": "d)None of the above"
+                }
+            ],
+            "explanation": "The <input> tag in HTML is used to represent a form input control in HTML document."
+        },
+        {
+            "questionText": "4) Which of the following attribute is used to provide a unique name to an element?",
+            "options": [{
+                    "text": "a)class"
+                },
+                {
+                    "text": "b)id",
+                    "correct": true
+                },
+                {
+                    "text": "c)type"
+                },
+                {
+                    "text": "d)none of the above"
+                }
+            ],
+            "explanation": "The id attribute is used to specify a unique id for an element of the HTML document. It allocates the unique identifier which can be used by the JavaScript and CSS to perform certain tasks."
+        },
+        {
+            "questionText": "5)A program in HTML can be rendered and read by ",
+            "options": [{
+                    "text": "a)Web browser",
+                    "correct": true
+                },
+                {
+                    "text": "b)Server"
+                },
+                {
+                    "text": "c)Interpreter"
+                },
+                {
+                    "text": "d)None of the above"
+                }
+            ],
+            "explanation": "HTML programs can be read and rendered by the web browser. A web browser can support several web pages."
+        }
+       
+    ]
+}
